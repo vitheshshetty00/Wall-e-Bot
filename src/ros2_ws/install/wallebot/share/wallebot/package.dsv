@@ -1,0 +1,8 @@
+source;share/wallebot/hook/cmake_prefix_path.ps1
+source;share/wallebot/hook/cmake_prefix_path.dsv
+source;share/wallebot/hook/cmake_prefix_path.sh
+source;share/wallebot/local_setup.bash
+source;share/wallebot/local_setup.dsv
+source;share/wallebot/local_setup.ps1
+source;share/wallebot/local_setup.sh
+source;share/wallebot/local_setup.zsh

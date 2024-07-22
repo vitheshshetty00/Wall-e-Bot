@@ -1,0 +1,4 @@
+source;share/wallebot/local_setup.bash
+source;share/wallebot/local_setup.dsv
+source;share/wallebot/local_setup.sh
+source;share/wallebot/local_setup.zsh

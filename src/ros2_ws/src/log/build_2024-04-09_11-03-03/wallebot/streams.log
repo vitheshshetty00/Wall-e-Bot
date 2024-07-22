@@ -1,0 +1,63 @@
+[0.013s] Invoking command in '/home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/vithesh/dev_ws/src/ros2_ws/src/wallebot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.167s] -- The CXX compiler identification is GNU 11.4.0
+[0.177s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.288s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.410s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.410s] -- Detecting CXX compile features
+[0.411s] -- Detecting CXX compile features - done
+[0.414s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.659s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.746s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.787s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.903s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.916s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.917s] -- Configured cppcheck include dirs: 
+[0.917s] -- Configured cppcheck exclude dirs and/or files: 
+[0.929s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.929s] -- Configured cpplint exclude dirs and/or files: 
+[0.931s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.931s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.935s] -- Added test 'lint_cmake' to check CMake code style
+[0.937s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.949s] -- Added test 'uncrustify' to check C / C++ code style
+[0.949s] -- Configured uncrustify additional arguments: 
+[0.951s] -- Added test 'xmllint' to check XML markup files
+[0.954s] -- Configuring done
+[0.958s] -- Generating done
+[0.960s] -- Build files have been written to: /home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot
+[0.965s] Invoked command in '/home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/vithesh/dev_ws/src/ros2_ws/src/wallebot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot
+[0.968s] Invoking command in '/home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot -- -j8 -l8
+[1.021s] Invoked command in '/home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot -- -j8 -l8
+[1.071s] Invoking command in '/home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot
+[1.082s] -- Install configuration: ""
+[1.083s] -- Execute custom install script
+[1.083s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/config/empty.yaml
+[1.097s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/config/mapper_params_online_async.yaml
+[1.110s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/config/view_bot.rviz
+[1.123s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/description/inertial_macros.xacro
+[1.136s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/description/robot.urdf.xacro
+[1.148s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/description/robot_core.xacro
+[1.160s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/launch/rsp.launch.py
+[1.173s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/worlds/empty.world
+[1.185s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/ament_index/resource_index/package_run_dependencies/wallebot
+[1.197s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/ament_index/resource_index/parent_prefix_path/wallebot
+[1.209s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/environment/ament_prefix_path.sh
+[1.221s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/environment/ament_prefix_path.dsv
+[1.234s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/environment/path.sh
+[1.246s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/environment/path.dsv
+[1.258s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/local_setup.bash
+[1.270s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/local_setup.sh
+[1.282s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/local_setup.zsh
+[1.294s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/local_setup.dsv
+[1.306s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/package.dsv
+[1.318s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/ament_index/resource_index/packages/wallebot
+[1.331s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/cmake/wallebotConfig.cmake
+[1.343s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/cmake/wallebotConfig-version.cmake
+[1.355s] -- Symlinking: /home/vithesh/dev_ws/src/ros2_ws/src/install/wallebot/share/wallebot/package.xml
+[1.370s] Invoked command in '/home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/vithesh/dev_ws/src/ros2_ws/src/build/wallebot
